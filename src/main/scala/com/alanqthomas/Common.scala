@@ -7,7 +7,7 @@ object Common {
   val windowsRootPath: String = new File("C:\\Users\\Alan\\Documents\\Projects\\advent-of-code-2018\\input").getAbsolutePath
   val macRootPath: String = new File("/Users/alanqthomas/Documents/projects/advent-of-code-2018/input").getAbsolutePath
 
-  val isMac: Boolean = true
+  val isMac: Boolean = false
 
   def getLinesFromFile(filename: String): List[String] = {
     val file = if (isMac) new File(s"$macRootPath/$filename")
