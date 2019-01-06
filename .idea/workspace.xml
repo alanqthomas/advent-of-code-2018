@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="338ae2f5-6186-4e97-8b46-ac32bf164768" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/advent-of-code-2018-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/advent-of-code-2018-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/advent-of-code-2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/advent-of-code-2018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day14.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day13.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day13.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,33 +37,22 @@
       </state>
     </system>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1850024184">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Scala" value="4536" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Scala" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day13.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="222" selection-start-line="222" selection-end-line="222" />
+            <state relative-caret-position="-846">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day14.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -121,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day11.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day12.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day13.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day14.scala" />
       </list>
     </option>
   </component>
@@ -131,9 +119,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1323" />
-    <option name="height" value="1027" />
+    <option name="x" value="-1208" />
+    <option name="width" value="1215" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -143,43 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="alanqthomas" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
@@ -227,12 +178,49 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="alanqthomas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546739563791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546767681611" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -256,8 +244,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Day13">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Application.Day14">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -319,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day9" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.alanqthomas.Day9" />
+    <configuration name="Day14" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.alanqthomas.Day14" />
       <module name="advent-of-code-2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -345,7 +333,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -353,29 +341,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Day9" />
       <item itemvalue="Application.Day10" />
       <item itemvalue="Application.Day11" />
       <item itemvalue="Application.Day12" />
       <item itemvalue="Application.Day13" />
+      <item itemvalue="Application.Day14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day14" />
         <item itemvalue="Application.Day13" />
         <item itemvalue="Application.Day12" />
         <item itemvalue="Application.Day11" />
         <item itemvalue="Application.Day10" />
-        <item itemvalue="Application.Day9" />
       </list>
     </recent_temporary>
   </component>
@@ -452,10 +440,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1323" height="1027" extended-state="0" />
+    <frame x="-1208" y="0" width="1215" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16315378" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5021882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,7 +452,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995005" visible="true" weight="0.46105918" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995005" visible="true" weight="0.4737418" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,7 +462,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995005" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004995" side_tool="true" weight="0.32997987" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.28764278" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.46625128" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.46579477" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -492,24 +480,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="WorksheetDefaultProjectSettings">
     <option name="compilerProfileName" value="Default" />
     <option name="makeBeforeRun" value="true" />
     <option name="moduleName" value="advent-of-code-2018" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/generic/Graph.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/GraphBase.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/jars/graph-core_2.12-1.12.5.jar!/scalax/collection/mutable/GraphLike.class" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-graph/graph-core_2.12/srcs/graph-core_2.12-1.12.5-sources.jar!/scalax/collection/edge/Implicits.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/math/Ordering.scala">
@@ -552,13 +528,6 @@
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/File.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alanqthomas/Common.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/collection/generic/Subtractable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -678,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/Byte.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="289" column="5" lean-forward="true" selection-start-line="289" selection-start-column="5" selection-end-line="289" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -763,13 +725,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/Array.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day11.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-650">
@@ -791,10 +746,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alanqthomas/Common.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day13.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        <state relative-caret-position="-846">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/Short.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/Byte.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/Array.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="104" column="6" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/collection/mutable/ArrayOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/alanqthomas/Day14.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
